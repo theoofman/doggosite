@@ -1,6 +1,8 @@
 #h-main{
     text-align: center;
     font-family: "DM Sans";
+    color:black;
+    font-size:80px;
 }
 #d-main{
     background-color:rgb(175, 237, 212);
@@ -14,6 +16,12 @@
     padding-left:50px;
     padding-right:50px;
     text-decoration: none;
+    font-size:40px;
+    transition: font-size 1s, color 1s;
+}
+#d-nav a:hover{
+    font-size: 100px;
+    color:white;
 }
 #contact{
     text-align: center;
@@ -28,4 +36,8 @@ h1{
 #form{
     margin:0 auto;
     display:block;
+}
+#center{
+    margin:0 auto;
+    text-align: center;
 }
